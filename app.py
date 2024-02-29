@@ -3,7 +3,11 @@ import pandas as pd
 import plotly.express as px
 
 # Leer el archivo CSV en un DataFrame
-car_data = pd.read_csv('C:/Users/User/Desktop/Learning_Python/Learning_Python/Sprint 5/SPRINT5/vehicles_us.csv')
+#car_data = pd.read_csv('C:/Users/User/Desktop/Learning_Python/Learning_Python/Sprint 5/SPRINT5/vehicles_us.csv')
+
+#Utilizaré ruta relativa porque Streamlit si lee la direccion completa de la base de datos, pero Render al parecer no.
+car_data = pd.read_csv('vehicles_us.csv')
+
 
 # Encabezado de la aplicación
 st.header('Panel de Control de Anuncios de Venta de Coches')
