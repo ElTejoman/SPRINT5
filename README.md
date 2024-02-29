@@ -12,4 +12,4 @@ Este proyecto es un panel de control de una aplicación web que permite visualiz
 - Los gráficos se generan utilizando la biblioteca Plotly Express.
 
 
-> El enlace generado por RENDER es: https://sprint5.onrender.com/
+> El enlace generado por RENDER es: https://sprint5.onrender.com/ ó https://sprint5-kuru.onrender.com
